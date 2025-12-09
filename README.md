@@ -21,16 +21,21 @@ A lightweight Python tool that downloads **only a specific folder** from any pub
 pip install git+https://github.com/1Sujal/github-folder-cloner.git
 ```
  Or clone and install locally:
-```git clone https://github.com/1Sujal/github-folder-cloner.git
+```bash
+git clone https://github.com/1Sujal/github-folder-cloner.git
 cd github-folder-cloner
 pip install .
 ```
 🏃 Usage
 Basic CLI
-```github-folder-cloner <github-folder-url> <output-folder>```
+```bash
+github-folder-cloner <github-folder-url> <output-folder>
+```
 
 Example:
-```github-folder-cloner https://github.com/GoogleChrome/chrome-extensions-samples/tree/main/functional-samples/tutorial.hello-world tutorial-hello-world```
+```bash
+github-folder-cloner https://github.com/GoogleChrome/chrome-extensions-samples/tree/main/functional-samples/tutorial.hello-world tutorial-hello-world
+```
 
 
 This will download only the tutorial.hello-world folder into tutorial-hello-world/.
@@ -39,4 +44,6 @@ This will download only the tutorial.hello-world folder into tutorial-hello-worl
 
 Python 3.8+
 
-```requests (installed automatically via pip)```
+```bash
+requests
+``` (installed automatically via pip)
