@@ -5,7 +5,7 @@ setup(
     version="0.1.0",
     description="Clone a specific folder from a GitHub repo without cloning the entire repo",
     author="Sujal Bhattarai",
-    author_email="null",
+    author_email="damndawg@duck.com",
     url="https://github.com/1Sujal/github-folder-cloner",
     packages=find_packages(),
     py_modules=["main"],
